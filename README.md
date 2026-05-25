@@ -1,6 +1,6 @@
 # Hamming-Project
-Determine the error position in a hamming code
-This C++ project demonstrates Hamming code encoding, random bit-flip noise, single-bit error correction, decoding, and a statistics simulation.
+Determine the error position(be flipped randomly) in a hamming code
+
 
 ## Features
 
@@ -13,7 +13,7 @@ This C++ project demonstrates Hamming code encoding, random bit-flip noise, sing
 
 ## Important idea
 
-A basic Hamming code can correct one flipped bit. If two or more bits flip, the syndrome can point to the wrong position, so the final decoded message may be wrong.
+A basic Hamming code can correct one flipped bit. If two or more bits flip, the syndrome may point to the wrong position, so the final decoded message may be wrong.
 
 ## Compile
 
